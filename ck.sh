@@ -27,11 +27,11 @@ echo -e "\e[5;32m
 echo""
 
 
-echo -e "\e[1;91;106m  Code By Ad A M \e[0m"
+echo -e "\e[1;91;106m           Code By Ad A M \e[0m"
 echo""
-echo -e "\e[5;32m I am Hackcat \e[0m"
-
-read -p " Enter your  Hash password: " h
+echo -e "\e[5;32m                I am Hackcat \e[0m"
+echo ""
+read -p " Enter your  Hash password : " h
 while $IFS read ghost
 do
 hash=$(echo $ghost | md5sum |sed 's/[^a-z0-9]//g')
