@@ -29,7 +29,7 @@ echo""
 
 echo -e "\e[1;91;106m  Code By Ad A M \e[0m"
 echo""
-
+echo -e "\e[5;32m I am Hackcat \e[0m"
 
 read -p " Enter your  Hash password: " h
 while $IFS read ghost
@@ -44,6 +44,6 @@ echo "no" > /dev/null 2>1
 
 fi 
 
-done < password.txt
+done < ghost.txt
 clear
 echo "We did not find the password for you"
